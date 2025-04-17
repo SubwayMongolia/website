@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subway - Language Select</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen w-screen bg-cover bg-center" style="background-image: url('https://subway.mn/bg.png')">
+
+    <!-- Full screen flex center -->
+    <div class="flex items-center justify-center h-screen w-screen">
+      <div class="bg-white/70 backdrop-blur-md rounded-2xl p-10 shadow-xl flex flex-col items-center">
+        <h1 class="text-2xl font-semibold text-gray-800 mb-8 text-center">Хэл сонгох / Select Language </h1>
+
+        <div class="flex gap-16">
+          <!-- Mongolian -->
+          <a href="Allergen_mn.pdf" class="flex flex-col items-center hover:scale-105 transition-transform">
+            <img src="https://flagcdn.com/64x48/mn.png" alt="English" class="w-16 h-auto rounded shadow-md" />
+            <span class="mt-3 text-lg font-medium text-gray-800">Монгол</span>
+          </a>
+
+          <!-- English-->
+          <a href="Allergen_en.pdf" class="flex flex-col items-center hover:scale-105 transition-transform">
+            <img src="https://flagcdn.com/64x48/gb.png" alt="Монгол" class="w-16 h-auto rounded shadow-md" />
+            <span class="mt-3 text-lg font-medium text-gray-800">English</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
